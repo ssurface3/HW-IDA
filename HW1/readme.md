@@ -1,0 +1,9 @@
+Each student can download their own data from folder "Data for homework". You should download Diabetes.txt.zip file and python script  dataSelection.py. To form your individual dataset you must change text constant in row 72 of script and then run script. Resulting file diabetes[Your ID].txt will be created at the same folder. Description of database fields can be found in https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicatorsLinks to an external site..
+Perform exploratory data analysis. This analysis should include
+Mean and standard deviation (for continuous variables) or frequencies of all categories (for categorical variables) separately for class diabetes and without diabetes.
+Estimation independence of distributions for two output classes for each attribute separately. Estimate informativeness of each attribute for classification.
+Analysis of missing values and data imputation. Comparison of several methods of data imputation.
+Impute data with 1NN, 3NN and 5NN data imputation methods for classification (see, for example, kNNImpute in dataImputation.py in https://github.com/Mirkes/DataImputation/tree/masterLinks to an external site.).
+Check changes of distributions, introduced by imputation. Apply Kolmogorov-Smirnov test for each attribute. Select the best imputation method.
+Apply one attribute classification for each attribute and estimate informativeness of each attribute for classification.
+Result should be zip file that includes report (in English but not in python) and csv file with complete (imputed) data. Order of records in the complete file must be the same as in downloaded file.
